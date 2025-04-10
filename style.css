@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  align-items: center;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ff6a00;
+}
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  font-weight: 500;
+}
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn.primary {
+  background: #ff6a00;
+  color: white;
+}
+.btn.outline {
+  border: 2px solid #ff6a00;
+  color: #ff6a00;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.highlight {
+  color: #ff6a00;
+}
+.subtext {
+  color: #aaa;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.hero-img {
+  max-width: 100%;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 106, 0, 0.5);
+}
+.features, .pricing, .live-demo, .testimonial, .brands {
+  padding: 60px 20px;
+  text-align: center;
+}
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.feature-card {
+  background: #1a1a1a;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+}
+.glow-orange {
+  border: 1px solid #ff6a00;
+  box-shadow: 0 0 20px rgba(255,106,0,0.5);
+}
+.glow-purple {
+  border: 1px solid #9b5de5;
+  box-shadow: 0 0 20px rgba(155,93,229,0.5);
+}
+.testimonial blockquote {
+  font-size: 20px;
+  font-weight: 600;
+}
+.testimonial .author {
+  margin-top: 10px;
+  color: #ccc;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+.price-card {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 16px;
+  width: 250px;
+  text-align: left;
+}
+.price-card h3 {
+  font-size: 28px;
+}
+.price-card ul {
+  list-style: none;
+  margin: 20px 0;
+}
+.price-card ul li {
+  margin-bottom: 10px;
+}
+.note {
+  color: #ccc;
+  margin-top: 10px;
+}
+.brand-slider {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-weight: bold;
+  color: #ff6a00;
+  margin-top: 30px;
+}
